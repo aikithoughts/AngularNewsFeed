@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NewsFeedComponent } from './news-feed/news-feed.component';
+import { NewsItemComponent } from './news-item/news-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewsFeedComponent
+    NewsFeedComponent,
+    NewsItemComponent
   ],
   imports: [
     BrowserModule
